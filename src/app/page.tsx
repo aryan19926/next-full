@@ -4,7 +4,7 @@
 // keep sensitive info in the server side not to be exposed on client side
 
 
-// every folder should have page.tsx
+// every folder should have page.tsx 
 
 // import { useState } from "react";
 
@@ -18,7 +18,7 @@ export default function Home() {
   // const [value, setValue] = useState(0);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex items-center justify-center">
       <h1>Aryan</h1>
     </div>
   );

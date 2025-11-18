@@ -9,7 +9,7 @@ export default function Profile() {
     const searchParams = useSearchParams();
 
     console.log(searchParams.get('name'));  // http://localhost:3000/profile?name=aryan
-    console.log(searchParams.getAll('name'));
+    console.log(searchParams.getAll('name')); //http://localhost:3000/profile?name=aryan&name=veru 
 
 
     const handleClick = () => {
